@@ -1,0 +1,5 @@
+ESTADO inicial
+    SI evento == "ruido" IR_A alerta
+
+ESTADO alerta
+    SI evento == "calma" IR_A inicial
